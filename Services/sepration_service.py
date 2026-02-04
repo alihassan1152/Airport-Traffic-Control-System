@@ -1,0 +1,12 @@
+class SeparationService:
+
+    def maintain_safe_distance(self, airplane1, airplane2):
+        if airplane1.position == airplane2.position:
+            print("Warning: Unsafe distance!")
+
+
+         # Ensures safe distance between airplanes
+
+
+
+
