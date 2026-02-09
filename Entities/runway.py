@@ -3,11 +3,26 @@ class Runway:
         self.runway_id = runway_id
         self.is_available = True
 
-
-
-
 # landing / takeoff control (FR-03)
 # emergency priority (FR-06)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

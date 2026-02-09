@@ -1,15 +1,9 @@
 class Airplane:
-    def __init__(self, plane_id, name):
-        self.plane_id = plane_id
-        self.name = name
-
-        self.position = None
-        self.speed = None
-        self.altitude = None
-
-        self.status = "ON_GROUND"
-        self.emergency = False
-
+    def __init__(self, id, position, speed, altitude):
+        self.id = id
+        self.position = position
+        self.speed = speed
+        self.altitude = altitude
 
 
 """

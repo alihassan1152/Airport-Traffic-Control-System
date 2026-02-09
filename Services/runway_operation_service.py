@@ -7,8 +7,8 @@ class RunwayOperationService:
 
         # runway free hai?
         # to plane land kare ga
-        # runway free nhi?
-        # to plane land nhi kare ga
+        # runay free nahi.
+        # to plane land nahe karega
 
 
     def manage_takeoff(self, airplane, runway):
@@ -16,5 +16,5 @@ class RunwayOperationService:
             airplane.status = "Takeoff"
             runway.is_available = False
 
-        # 2 planes zada pass to nhi?
+        # 2 planes zada pass to nahe.
 
