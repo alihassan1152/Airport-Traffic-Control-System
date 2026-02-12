@@ -1,0 +1,12 @@
+class LandingService:
+
+    def manage_sequence(self, airplane1, airplane2):    # Systam landing or takeoff ka saquence ko manage karta hai
+
+
+        if airplane1.altitude < airplane2.altitude:
+            print(f"Airplane {airplane1.id} will land first")
+        else:
+            print(f"Airplane {airplane2.id} will land first")
+
+
+

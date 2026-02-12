@@ -1,11 +1,12 @@
 class EmergencyService:
 
-    def handle_emergency(self, airplane, emergency):
-        airplane.emergency_status = emergency
-        airplane.priority = "High"
+    def handle_emergency(self, airplane, pilot, controller, emergency_type): # System emergency situations handle karta hai
 
+        print(f" EMERGENCY DETECTED: {emergency_type}")
+        print(f"Airplane ID: {airplane.id}")
+        print(f"Pilot: {pilot.name}")
 
-        # Handles emergency situations
+        print(f"Notifying Controller {controller.name}...")
 
-
+        print("Priority landing initiated.")
 

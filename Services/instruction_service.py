@@ -1,8 +1,10 @@
 class InstructionService:
 
-    def send_instruction(self, pilot, instruction):
-        pilot.current_instruction = instruction
+    def send_instruction(self, controller, pilot, instruction_text): # System pilot ko instruction bhejta hai
 
-        # Sends instruction from ATC to pilot.
+        print(f"Controller {controller.name} sending instruction...")
 
+        pilot.current_instruction = instruction_text
+
+        print(f"Pilot {pilot.name} received instruction: {pilot.current_instruction}")
 
