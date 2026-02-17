@@ -1,6 +1,6 @@
 class InstructionService:
 
-    def send_instruction(self, controller, pilot, instruction_text): # System pilot ko instruction bhejta hai
+    def send_instruction(self, controller, pilot, instruction_text):
 
         print(f"Controller {controller.name} sending instruction...")
 

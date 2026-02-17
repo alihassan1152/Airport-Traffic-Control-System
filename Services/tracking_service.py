@@ -1,14 +1,13 @@
 class TrackingService:
 
-
-    def show_position(self,airplane):                        # Controller ko plane ki current position dikhna.
+    def show_position(self,airplane):
         position = airplane.position
         altitude = airplane.altitude
 
         print(f"Airplane at {position}, altitude {altitude}")
 
 
-    def track_movement(self,airplane, radar_data):                # Radar se data laina or plane ko show karna.
+    def track_movement(self, airplane, radar_data):
 
         print(
             f"Tracking airplane {airplane.id} | "
@@ -17,6 +16,7 @@ class TrackingService:
             f"Altitude: {airplane.altitude}"
         )
 
+    
 
 
 
@@ -99,75 +99,3 @@ class TrackingService:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- # def track_movement(airplane, radar_data):
-    #     airplane.position = radar_data.position
-    #     airplane.speed = radar_data.speed
-    #     airplane.altitude = radar_data.altitude

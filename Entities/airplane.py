@@ -6,12 +6,3 @@ class Airplane:
         self.altitude = altitude
 
 
-"""
-position  FR-01 FR-02
-speed  FR-02
-altitude  FR-04
-status  landing / takeoff
-emergency  FR-06
-"""
-
-

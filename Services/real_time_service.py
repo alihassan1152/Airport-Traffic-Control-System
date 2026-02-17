@@ -2,12 +2,11 @@ import time
 
 class RealtimeService:
 
-    def update_airplane_status(self, airplane): # System real time information update karta hai
+    def update_airplane_status(self, airplane):
 
-        print("Starting real-time tracking...\n")
+        print("Starting real_time Tracking...\n")
 
-        for i in range(3):  # simulate 3 updates
-
+        for i in range (3):
             airplane.altitude -= 1000
             airplane.speed -= 20
 
@@ -17,9 +16,12 @@ class RealtimeService:
                 f"Speed: {airplane.speed}"
             )
 
-            time.sleep(1)
+            time.sleep(0.4)
 
-        print("\nReal-time update completed.")
+        print("\n Real_Time_Update Tracking...")
+
+
+
 
 
 

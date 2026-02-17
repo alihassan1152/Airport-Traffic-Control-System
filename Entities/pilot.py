@@ -5,6 +5,5 @@ class Pilot:
         self.current_instruction = None
 
 
-
      # Controller ki instructions receive karta hai (FR-05)
 

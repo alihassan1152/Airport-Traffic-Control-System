@@ -1,6 +1,6 @@
 class EmergencyService:
 
-    def handle_emergency(self, airplane, pilot, controller, emergency_type): # System emergency situations handle karta hai
+    def handle_emergency(self, airplane, pilot, controller, emergency_type):
 
         print(f" EMERGENCY DETECTED: {emergency_type}")
         print(f"Airplane ID: {airplane.id}")
@@ -9,4 +9,5 @@ class EmergencyService:
         print(f"Notifying Controller {controller.name}...")
 
         print("Priority landing initiated.")
+
 
